@@ -18,7 +18,7 @@ The following instructions  assume you're using docker-machine. This will defini
 - Now on your local machine you can test the tunnel with something like:
 ```
   python -m SimpleHTTPServer 3000 .
-  ./start_tunnel.sh 3000
+  ./start_tunnel.sh 3000 whatever.your.domain.is
 ```
 - Open browser to whatever.your.domain.is and you should see an "It works!"
 
