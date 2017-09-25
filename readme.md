@@ -1,7 +1,7 @@
 
 ## To run this example you will need:
 
-A server running docker with a DNS name pointing to it. (If you don't already have one setup, using docker-machine https://docs.docker.com/machine/get-started-cloud/#examples) can make it easier to setup and deploy to your server. Your server will need ports 80, 443, and 2222 open to the public.
+A server running docker with a DNS name pointing to it. (If you don't already have one setup, using [docker-machine]( https://docs.docker.com/machine/get-started-cloud/#examples)) can make it easier to setup and deploy to your server. Your server will need ports 80, 443, and 2222 open to the public.
 
 The following instructions  assume you're using docker-machine. This will definitely work without it, but you'll have to do a bit more manual copying of files. And you'll probably want to clone the repo on your server rather than locally. 
 
