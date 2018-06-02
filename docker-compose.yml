@@ -12,9 +12,9 @@ services:
     environment:
       - VIRTUAL_HOST=${LETSENCRYPT_HOST}
       - VIRTUAL_PORT=8080 # needs to be higher than 1024 for ssh to be able to reverse forward
-      - LETSENCRYPT_HOST=${LETSENCRYPT_HOST}
-      - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
-      # - LETSENCRYPT_TEST=true
+      - LETSENCRYPT_HOST
+      - LETSENCRYPT_EMAIL
+      - LETSENCRYPT_TEST
 
   nginx-proxy:
     image: jwilder/nginx-proxy
