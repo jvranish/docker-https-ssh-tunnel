@@ -20,8 +20,6 @@ RUN \
   chown -R tunnel:tunnel /home/tunnel && \
   ssh-keygen -A
 
-COPY --chown=tunnel:tunnel identity.pub /home/tunnel/.ssh/authorized_keys
-
-RUN chmod 644 /home/tunnel/.ssh/authorized_keys
+VOLUME /home/tunnel/.ssh/authorized_keys
 
 CMD /usr/sbin/sshd -D
