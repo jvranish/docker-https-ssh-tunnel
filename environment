@@ -1,2 +1,0 @@
-export LETSENCRYPT_HOST=replace.this.example.com
-export LETSENCRYPT_EMAIL=replace.with.your@email.com
